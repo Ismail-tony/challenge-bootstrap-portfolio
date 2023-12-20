@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    column-gap: 200px;
+    text-decoration: none;
+}
+
+span {
+    color: red;
+}
