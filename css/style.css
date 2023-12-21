@@ -1,15 +1,18 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgray;
 }
 
 
-nav {
-    display: flex;
-    column-gap: 200px;
-    text-decoration: none;
+h1,h2,h3 {
+    font-weight: 700px;
+}
+#firstname {
+    color: white;
 }
 
-span {
-    color: red;
+#lastname {
+    color: greenyellow;
 }
