@@ -4,33 +4,48 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <title>Ismail Babalola // Web Development Student</title>
 </head>
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-md navbar-light border-bottom border-body" style="background-color: darkgrey;">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <div class="container">
             <a href="#" class="navbar-brand">
-                <span id="firstname">Ismail</span>
-                <span id="lastname">Babalola</span>
+                <span id="firstname">IT</span><span id="lastname">B</span>
             </a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcontent" type="button" aria-controls="navbarcontent" aria-expanded="false" aria-label="Expand Navigation">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcontent" type="button"
+                aria-controls="navbarcontent" aria-expanded="false" aria-label="Expand Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarcontent">
-                <ul class="navbar-nav me-auto mb-lg-0">
-                    <li>
-                        <a href="#about" class="nav-item"></a>About
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" aria-current="page">Home</a>
                     </li>
-                    <li>
-                        <a href="#projects" class="nav-item"></a>Projects
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
                     </li>
-                    <li>
-                        <a href="#contact" class="nav-item"></a>Contact
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar">
+                    <li class="nav-item">
+                        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="social-icon"><i class="ri-github-line"></i></a>
                     </li>
                 </ul>
             </div>
@@ -38,10 +53,111 @@
     </nav>
     <!-- NavBar end-->
 
-    <!-- Jumbotron -->
+    <!-- Home -->
+    <section  id="home">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./images/handsome.jpg" class="d-block mx-lg-auto img-fluid" alt="my photo" width="700"
+                        height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold"> Hi! I'm <span id="fullname">Ismail Babalola</span></h1>
+                    <h4 class="display-6 fw-bold">Aspiring Web Developer</h4>
+                    <p class="col-lg-8 mx-auto fs-5 text-muted">
+                        This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a
+                        responsive <code>.col-*</code> class, and a customized call to action.
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Jumbotron end-->
-    
+    <!-- Home end-->
+
+    <!-- About -->
+    <section id="about">
+    </section>
+    <!-- About end-->
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./images/4884785.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./images/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="btn btn-primary text-alignment-center">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+
 </body>
+<footer>
+</footer>
 
 </html>

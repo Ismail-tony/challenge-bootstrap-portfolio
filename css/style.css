@@ -2,17 +2,43 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: darkgray;
+    font-size: 1.2rem;
+    background-color: white;
 }
 
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
     font-weight: 700px;
 }
+h4 {
+    color: black;
+}
+.nav-item {
+    list-style: none;
+}
+.nav-link, .social-icon {
+    text-decoration: none;
+    color: black;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.navbar-brand {
+    font-weight: 700px;
+    font-size: 30px;
+}
+
 #firstname {
+    color: black;
+}
+#lastname, #fullname {
+    color: red;
+}
+
+
+.lead {
     color: white;
 }
 
-#lastname {
-    color: greenyellow;
+#handsome {
+    background-image: url(../images/handsome.jpg);
 }
