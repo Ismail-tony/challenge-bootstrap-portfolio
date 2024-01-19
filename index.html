@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -15,76 +16,49 @@
     <title>Ismail Babalola // Web Development Student</title>
 </head>
 
-<body>
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-white">
-        <div class="container">
-            <a href="#" class="navbar-brand">
-                <span id="firstname">IT</span><span id="lastname">B</span>
-            </a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcontent" type="button"
-                aria-controls="navbarcontent" aria-expanded="false" aria-label="Expand Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarcontent">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link" aria-current="page">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-                <ul class="navbar">
-                    <li class="nav-item">
-                        <a href="instagram.com/ismail-tony/" class="social-icon"><i class="ri-instagram-line"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="github.com" class="social-icon"></a><i class="bi bi-github"></i>
-                    </li>
-                </ul>
+<body class="h-100 text-center text-bg-dark">
+    <!-- Cover Page with Navbar -->
+    <div class="container-fluid d-flex h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div class="navbar">
+                <a href="#" class="navbar-brand float-md-start mb-0">
+                    <span id="firstname">IT</span><span id="lastname">B</span>
+                </a>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link fw-bold py-0 px-16 active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link fw-bold py-0 px-16" href="#about">About</a>
+                    <a class="nav-link fw-bold py-0 px-16" href="#skills">Skills</a>
+                    <a class="nav-link fw-bold py-0 px-16" href="#projects">Projects</a>
+                    <a class="nav-link fw-bold py-0 px-16" href="#contact">Contact</a>
+                </nav>
             </div>
-        </div>
-    </nav>
+            
+        </header>
+    </div>
     <!-- NavBar end-->
-
-    <!-- Home -->
-    <section  id="home">
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="./images/handsome.jpg" class="d-block mx-lg-auto img-fluid" alt="my photo" width="700"
-                        height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold"> Hi! I'm <span id="fullname">Ismail Babalola</span></h1>
-                    <h4 class="display-6 fw-bold">Aspiring Web Developer</h4>
-                    </div>
-                </div>
-            </div>
+    <section id="heroBanner">
+        <div class="px-3 align-items-center h-100 py-5" id="home">
+            <h1 class="display-5 fw-bold"> Hi! I'm <span id="fullname">Ismail Babalola</span></h1>
+            <h4 class="display-6 fw-bold">Aspiring Web Developer</h4>
+            <p class="lead">HEAR. FEEL. THINK.</p>
+            <p class="lead">
+            <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+            </p>
         </div>
     </section>
-
-    <!-- Home end-->
-
+    </section>
     <!-- About -->
     <section id="about">
         <h2 class=" d-flex justify-content-center">About</h2>
-        <div class="d-flex gap-2 justify-content-center py-5">
+        <div class="py-5 mx-3">
             <p>My name is Ismail Babalola, I graduated with a Bachelor in Aerospace Engineering at Kingston University, UK. 
                 I am now currently enrolled in a Front-end Webdevolopment and it has been such a thrill to go through this course. 
-                Currently, I am going through JavaScript, it is a high level language that is used for improving the functionality of a 
-                webpage. 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus amet accusantium explicabo quia excepturi consequuntur odio, omnis vel accusamus voluptate quis natus, numquam dignissimos rerum fuga impedit possimus illo magnam minima? Incidunt omnis ut, eum amet distinctio tenetur voluptatibus hic, neque quidem reprehenderit laboriosam velit, non libero dolore quis quasi qui officia aspernatur aliquam minus explicabo accusamus architecto ipsum. Optio sequi doloremque itaque illum, blanditiis magnam minima enim nobis corporis tenetur voluptate eveniet. Itaque provident explicabo ullam ratione mollitia ab ducimus perspiciatis cum dicta molestias corrupti veniam nam, aspernatur minima fuga, reiciendis deserunt quos, illo impedit! Quisquam cumque expedita nihil?
+                Currently, I am learning JavaScript, it is a high level language that is used for improving the functionality of a 
+                webpage. By the end of the bootcamp, I am hoping to have the knowledge and understanding to create my own seperate 
+                projects that will prepare me for the tech industry.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit placeat sed doloribus, impedit id labore fuga recusandae voluptas maiores velit, porro maxime ducimus laborum provident. Assumenda eveniet harum iste. Est quasi voluptatibus aliquam voluptate adipisci ex, harum natus rem labore sunt rerum beatae voluptatem nostrum dignissimos aperiam libero. Voluptatum, aliquid! Iure sed velit sequi perferendis iusto qui doloribus voluptas animi voluptates ducimus, dolore soluta quis, vero consequatur ipsum accusantium dolor obcaecati, quisquam et corporis officiis? Voluptatibus vel debitis molestias doloribus magnam quia a itaque, excepturi fugiat, alias voluptates sint saepe, consequuntur voluptatum! Culpa fuga vel impedit a corporis neque enim, iure est quasi atque adipisci. Minima fugit aliquam quaerat doloribus temporibus porro, dolores veniam unde aperiam quam, corporis eveniet assumenda dicta qui. Autem cumque hic et dolorum expedita ducimus iure quo quia quidem omnis doloribus repellat amet voluptatum, voluptatem odio quisquam maiores porro perferendis ratione blanditiis. Dolorum, esse nihil. Odio?
             </p>
         </div>
     </section>
@@ -100,16 +74,15 @@
             <img class="svg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />
         </div>
     </section>
-
-
     <!-- Skills -->
 
     <!-- Projects -->
     <section id="projects">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <h2 class=" d-flex justify-content-center">Projects</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5 mx-3">
             <div class="col">
                 <div class="card">
-                    <img src="./images/4884785.jpg" class="card-img-top" alt="...">
+                    <img src="../images/4884785.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -120,7 +93,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="./images/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="../images/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -131,9 +104,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../images/4884785.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">TBD</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content.</p>
                         <a href="#" class="btn btn-primary text-alignment-center">Go somewhere</a>
@@ -142,9 +115,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../images/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">TBD</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -153,9 +126,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../images/4884785.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">TBD</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -164,9 +137,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../images/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">TBD</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -177,8 +150,15 @@
     </section>
     <!-- Projects -->
 
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="d-flex gap-2 justify-content-center py-5">
+            <a href="https://www.instagram.com/ismail_tony/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg></a>
+            <a href="https://github.com/Ismail-tony" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github-filled" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z" stroke-width="0" fill="currentColor" /></svg></a>
+    </section>
 </body>
 <footer>
+    Photo by <a href="https://unsplash.com/@flowforfrank?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ferenc Almasi</a> on <a href="https://unsplash.com/photos/text-cWUPyE8qggw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 </footer>
 
 </html>

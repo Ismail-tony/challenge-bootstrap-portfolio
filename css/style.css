@@ -3,24 +3,17 @@ body {
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
-    background-color: white;
 }
 
-
-h1,h2,h3,h4 {
-    font-weight: 700px;
-}
 h4 {
-    color: black;
+    color: white;
 }
 .nav-item {
     list-style: none;
 }
 .nav-link, .social-icon {
     text-decoration: none;
-    color: black;
-    padding-right: 16px;
-    padding-left: 16px;
+    color: white;
 }
 .navbar-brand {
     font-weight: 700px;
@@ -28,7 +21,7 @@ h4 {
 }
 
 #firstname {
-    color: black;
+    color: white;
 }
 #lastname, #fullname {
     color: red;
@@ -39,8 +32,14 @@ h4 {
     color: white;
 }
 
+
 .svg {
-    height: 150px;
-    width: 100px;
+    height: 200px;
+    width: 150px;
 }
+
+h2 {
+    color: red;
+}
+
 
